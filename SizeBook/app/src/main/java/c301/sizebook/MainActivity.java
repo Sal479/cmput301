@@ -35,6 +35,9 @@ import com.google.gson.reflect.TypeToken;
 
 /* The main activity of the application. Deals with showing the records on the screen and
 calling other activities.
+
+Known issues: Could not get save to work. Edit Adds another entry instead of editing old one, possible because new intent is being 
+created.
  */
 
 public class MainActivity extends AppCompatActivity {
